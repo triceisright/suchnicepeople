@@ -357,6 +357,16 @@
       opacity: 1;
     }
 
+    /* ─── SUBSCRIBE FORM ─── */
+    .subscribe-form iframe {
+      max-width: 100%;
+      overflow: hidden;
+      scrollbar-width: none;
+    }
+    .subscribe-form iframe::-webkit-scrollbar {
+      display: none;
+    }
+
     /* ─── FOOTER ─── */
     footer {
       border-top: 1px solid var(--border);
@@ -516,6 +526,17 @@
     <div class="container">
       <div class="section-label" style="justify-content: center;"><span>About Such Nice People</span></div>
       <p class="about-text fade-in">Audrey and John have been friends since childhood, and in 2023 they created Such Nice People to document a sabbatical project exploring the state of Industrial Design. What started small and simple took on a life of its own and became re:purposed. At its core, Such Nice People is built on a shared belief in provocative storytelling — work that sparks dialog and action toward a more equitable world. The duo plans to continue making films that illuminate the overlooked corners of the design profession.</p>
+    </div>
+  </section>
+
+  <!-- SUBSCRIBE -->
+  <section id="subscribe" style="padding: 4rem 0;">
+    <div class="container" style="text-align: center;">
+      <div class="section-label" style="justify-content: center;"><span>Stay In The Loop</span></div>
+      <p class="fade-in" style="font-family: var(--font-body); font-size: 1rem; font-weight: 300; color: var(--text-mid); margin-bottom: 2rem;">Sign up to hear about upcoming projects and new episodes.</p>
+      <div class="subscribe-form fade-in" style="max-width: 500px; margin: 0 auto; overflow: hidden;">
+        <script async src="https://joinlist.com/f/47cabaf7"></script>
+      </div>
     </div>
   </section>
 
